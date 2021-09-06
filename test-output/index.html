@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Cross_cutting" class="navigator-link">
+              <span class="suite-name border-failed">Cross-cutting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Cross_cutting" class="navigator-link ">
+                    <span>C:\Users\akash\eclipse-workspace\TestNg\testngtwo.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Cross_cutting" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Cross_cutting" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Cross_cutting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Cross_cutting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Cross_cutting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Cross_cutting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 1 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Cross_cutting" class="hide-methods failed suite-Cross_cutting"> (hide)</a> <!-- hide-methods failed suite-Cross_cutting -->
+                      <a href="#" panel-name="suite-Cross_cutting" class="show-methods failed suite-Cross_cutting"> (show)</a> <!-- show-methods failed suite-Cross_cutting -->
+                    </span>
+                    <div class="method-list-content failed suite-Cross_cutting">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.Finance" class="method navigator-link" hash-for-method="CCrejection">CCrejection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Cross_cutting -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cross_cutting" class="hide-methods passed suite-Cross_cutting"> (hide)</a> <!-- hide-methods passed suite-Cross_cutting -->
+                      <a href="#" panel-name="suite-Cross_cutting" class="show-methods passed suite-Cross_cutting"> (show)</a> <!-- show-methods passed suite-Cross_cutting -->
+                    </span>
+                    <div class="method-list-content passed suite-Cross_cutting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.TaskManagement" class="method navigator-link" hash-for-method="Automatictask">Automatictask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.Finance" class="method navigator-link" hash-for-method="CCSucess">CCSucess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.FndManagement" class="method navigator-link" hash-for-method="Delete">Delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.DocumentManagement" class="method navigator-link" hash-for-method="DocBatch">DocBatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.DocumentManagement" class="method navigator-link" hash-for-method="DocCreatecm">DocCreatecm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.DocumentManagement" class="method navigator-link" hash-for-method="DocIPP">DocIPP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.Finance" class="method navigator-link" hash-for-method="FinaceCC">FinaceCC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.Finance" class="method navigator-link" hash-for-method="FinanceDD(www.facebook.com)">FinanceDD(www.facebook.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.Finance" class="method navigator-link" hash-for-method="FinancePS">FinancePS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.FndManagement" class="method navigator-link" hash-for-method="FndClaimBO">FndClaimBO</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.FndManagement" class="method navigator-link" hash-for-method="FndContractBO">FndContractBO</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.FndManagement" class="method navigator-link" hash-for-method="FndPersonBO">FndPersonBO</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.DocumentManagement" class="method navigator-link" hash-for-method="Paymentsch(thirdusername, thirdpassword)">Paymentsch(thirdusername, thirdpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.DocumentManagement" class="method navigator-link" hash-for-method="Paymentsch(secondusername, secondpassword)">Paymentsch(secondusername, secondpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.DocumentManagement" class="method navigator-link" hash-for-method="Paymentsch(firstusername, firstpassword)">Paymentsch(firstusername, firstpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.DocumentManagement" class="method navigator-link" hash-for-method="Sepa">Sepa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.TaskManagement" class="method navigator-link" hash-for-method="TaskAdd(www..com, www.facebook.com)">TaskAdd(www..com, www.facebook.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.TaskManagement" class="method navigator-link" hash-for-method="TaskNote">TaskNote</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_cutting" title="CrossCutting.TaskManagement" class="method navigator-link" hash-for-method="Taskdelete(www.facebook.com)">Taskdelete(www.facebook.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cross_cutting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cross_cutting" class="panel Cross_cutting">
+          <div class="suite-Cross_cutting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">CrossCutting.Finance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CCrejection">
+                  </a> <!-- CCrejection -->
+                  <span class="method-name">CCrejection</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at CrossCutting.Finance.CCrejection(Finance.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_cutting-class-failed -->
+          <div class="suite-Cross_cutting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CrossCutting.DocumentManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DocBatch">
+                  </a> <!-- DocBatch -->
+                  <span class="method-name">DocBatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DocCreatecm">
+                  </a> <!-- DocCreatecm -->
+                  <span class="method-name">DocCreatecm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DocIPP">
+                  </a> <!-- DocIPP -->
+                  <span class="method-name">DocIPP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Paymentsch(thirdusername, thirdpassword)">
+                  </a> <!-- Paymentsch(thirdusername, thirdpassword) -->
+                  <span class="method-name">Paymentsch</span>
+                  <span class="parameters">(thirdusername, thirdpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Paymentsch(secondusername, secondpassword)">
+                  </a> <!-- Paymentsch(secondusername, secondpassword) -->
+                  <span class="method-name">Paymentsch</span>
+                  <span class="parameters">(secondusername, secondpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Paymentsch(firstusername, firstpassword)">
+                  </a> <!-- Paymentsch(firstusername, firstpassword) -->
+                  <span class="method-name">Paymentsch</span>
+                  <span class="parameters">(firstusername, firstpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sepa">
+                  </a> <!-- Sepa -->
+                  <span class="method-name">Sepa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_cutting-class-passed -->
+          <div class="suite-Cross_cutting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CrossCutting.TaskManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Automatictask">
+                  </a> <!-- Automatictask -->
+                  <span class="method-name">Automatictask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TaskAdd(www..com, www.facebook.com)">
+                  </a> <!-- TaskAdd(www..com, www.facebook.com) -->
+                  <span class="method-name">TaskAdd</span>
+                  <span class="parameters">(www..com, www.facebook.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TaskNote">
+                  </a> <!-- TaskNote -->
+                  <span class="method-name">TaskNote</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Taskdelete(www.facebook.com)">
+                  </a> <!-- Taskdelete(www.facebook.com) -->
+                  <span class="method-name">Taskdelete</span>
+                  <span class="parameters">(www.facebook.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_cutting-class-passed -->
+          <div class="suite-Cross_cutting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CrossCutting.FndManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Delete">
+                  </a> <!-- Delete -->
+                  <span class="method-name">Delete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FndClaimBO">
+                  </a> <!-- FndClaimBO -->
+                  <span class="method-name">FndClaimBO</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FndContractBO">
+                  </a> <!-- FndContractBO -->
+                  <span class="method-name">FndContractBO</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FndPersonBO">
+                  </a> <!-- FndPersonBO -->
+                  <span class="method-name">FndPersonBO</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_cutting-class-passed -->
+          <div class="suite-Cross_cutting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CrossCutting.Finance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CCSucess">
+                  </a> <!-- CCSucess -->
+                  <span class="method-name">CCSucess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FinaceCC">
+                  </a> <!-- FinaceCC -->
+                  <span class="method-name">FinaceCC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FinanceDD(www.facebook.com)">
+                  </a> <!-- FinanceDD(www.facebook.com) -->
+                  <span class="method-name">FinanceDD</span>
+                  <span class="parameters">(www.facebook.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FinancePS">
+                  </a> <!-- FinancePS -->
+                  <span class="method-name">FinancePS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_cutting-class-passed -->
+        </div> <!-- panel Cross_cutting -->
+        <div panel-name="test-xml-Cross_cutting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\akash\eclipse-workspace\TestNg\testngtwo.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Cross-cutting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;www.facebook.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;CrossCutting.Listners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Functionone&quot;&gt;
+    &lt;parameter name=&quot;urlone&quot; value=&quot;www.facebook.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CrossCutting.Finance&quot;/&gt;
+      &lt;class name=&quot;CrossCutting.DocumentManagement&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Functionone --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;functiontwo&quot;&gt;
+    &lt;parameter name=&quot;urltwo&quot; value=&quot;www..com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CrossCutting.TaskManagement&quot;/&gt;
+      &lt;class name=&quot;CrossCutting.FndManagement&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- functiontwo --&gt;
+&lt;/suite&gt; &lt;!-- Cross-cutting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cross_cutting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cross-cutting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Functionone (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">functiontwo (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cross_cutting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cross-cutting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CCSucess</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Delete</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DocIPP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FinancePS</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Sepa</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TaskNote</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cross_cutting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cross-cutting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cross_cutting');
+function tableData_Cross_cutting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Automatictask')
+data.setCell(0, 2, 'CrossCutting.TaskManagement')
+data.setCell(0, 3, 6);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CCSucess')
+data.setCell(1, 2, 'CrossCutting.Finance')
+data.setCell(1, 3, 5);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FndPersonBO')
+data.setCell(2, 2, 'CrossCutting.FndManagement')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CCrejection')
+data.setCell(3, 2, 'CrossCutting.Finance')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Taskdelete')
+data.setCell(4, 2, 'CrossCutting.TaskManagement')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'FndContractBO')
+data.setCell(5, 2, 'CrossCutting.FndManagement')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'DocBatch')
+data.setCell(6, 2, 'CrossCutting.DocumentManagement')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Delete')
+data.setCell(7, 2, 'CrossCutting.FndManagement')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TaskNote')
+data.setCell(8, 2, 'CrossCutting.TaskManagement')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FndClaimBO')
+data.setCell(9, 2, 'CrossCutting.FndManagement')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TaskAdd')
+data.setCell(10, 2, 'CrossCutting.TaskManagement')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DocIPP')
+data.setCell(11, 2, 'CrossCutting.DocumentManagement')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'FinancePS')
+data.setCell(12, 2, 'CrossCutting.Finance')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Paymentsch')
+data.setCell(13, 2, 'CrossCutting.DocumentManagement')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Sepa')
+data.setCell(14, 2, 'CrossCutting.DocumentManagement')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'DocCreatecm')
+data.setCell(15, 2, 'CrossCutting.DocumentManagement')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Paymentsch')
+data.setCell(16, 2, 'CrossCutting.DocumentManagement')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'FinaceCC')
+data.setCell(17, 2, 'CrossCutting.Finance')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'FinanceDD')
+data.setCell(18, 2, 'CrossCutting.Finance')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Paymentsch')
+data.setCell(19, 2, 'CrossCutting.DocumentManagement')
+data.setCell(19, 3, 1);
+window.suiteTableData['Cross_cutting']= { tableData: data, tableDiv: 'times-div-Cross_cutting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 70 ms</span>
+              <div id="times-div-Cross_cutting">
+              </div> <!-- times-div-Cross_cutting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cross_cutting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cross-cutting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cross_cutting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CrossCutting.FndManagement</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Move</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cross_cutting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.TaskManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">bfrst</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.DocumentManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Bfrtst</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.FndManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Befotst</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.TaskManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Bfrcls</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.Finance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CCSucess</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.TaskManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Automatictask</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.Finance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CCrejection</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.TaskManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TaskAdd(www..com, www.facebook.com)</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TaskNote</span>
+                <span class="method-start">48 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.Finance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FinaceCC</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.TaskManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Taskdelete(www.facebook.com)</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.Finance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FinanceDD(www.facebook.com)</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.TaskManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">Aftrcls</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.FndManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FndPersonBO</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.Finance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FinancePS</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.DocumentManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Bfrmthd</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.FndManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Delete</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.DocumentManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DocBatch</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.FndManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FndClaimBO</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.DocumentManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">Aftemthd</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Bfrmthd</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DocCreatecm</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Aftemthd</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">DocIPP</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bfrmthd</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.FndManagement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FndContractBO</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.DocumentManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">Aftemthd</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.TaskManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Afterst</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.DocumentManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Bfrmthd</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Paymentsch(firstusername, firstpassword)</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Aftemthd</span>
+                <span class="method-start">74 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Paymentsch(secondusername, secondpassword)</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bfrmthd</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">Aftemthd</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Bfrmthd</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Paymentsch(thirdusername, thirdpassword)</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Aftemthd</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Sepa</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bfrmthd</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">Aftemthd</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.Finance</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Aftrtst</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CrossCutting.DocumentManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">Aftrst</span>
+                <span class="method-start">142 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross-cutting">
+  <test name="Smoke">
+    <classes>
+   <class name="CrossCutting.DocumentManagement">
+   <methods>
+   <exclude name="Paymentsch"/>
+   </methods>
+   
+   </class>
+   <class name="CrossCutting.TaskManagement">
+   <methods>
+   <include name="Automatictask"/>
+   </methods>
+   
+   </class>
+    </classes>
+  </test> 
+  
+  <test name="Regression">
+  <classes>
+  
+  <class name="CrossCutting.DocumentManagement">
+  <methods>
+  <exclude name="Doc.*"/>
+  </methods>
+  </class>
+  
+  <class name="CrossCutting.Finance">
+  <methods>
+  <include name="CC.*"/>
+  </methods>
+  
+  </class>
+  <class name="CrossCutting.FndManagement">
+  <methods>
+  <exclude name="Fnd.*"/>
+  </methods>
+  
+  </class>
+  <class name="CrossCutting.TaskManagement"/>
+  </classes>
+  
+  
+  </test>
+</suite> 

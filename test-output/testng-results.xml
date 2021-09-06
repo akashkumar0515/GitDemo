@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="21" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-22T20:04:46 IST" name="Cross-cutting" finished-at="2021-08-22T20:04:46 IST" duration-ms="70">
+    <groups>
+      <group name="smoke">
+        <method signature="DocumentManagement.DocIPP()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" name="DocIPP" class="CrossCutting.DocumentManagement"/>
+        <method signature="DocumentManagement.Sepa()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" name="Sepa" class="CrossCutting.DocumentManagement"/>
+        <method signature="Finance.CCSucess()[pri:0, instance:CrossCutting.Finance@57c758ac]" name="CCSucess" class="CrossCutting.Finance"/>
+        <method signature="Finance.FinancePS()[pri:0, instance:CrossCutting.Finance@57c758ac]" name="FinancePS" class="CrossCutting.Finance"/>
+        <method signature="FndManagement.Delete()[pri:0, instance:CrossCutting.FndManagement@62150f9e]" name="Delete" class="CrossCutting.FndManagement"/>
+        <method signature="TaskManagement.TaskNote()[pri:0, instance:CrossCutting.TaskManagement@14dd9eb7]" name="TaskNote" class="CrossCutting.TaskManagement"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-08-22T20:04:46 IST" name="functiontwo" finished-at="2021-08-22T20:04:46 IST" duration-ms="58">
+      <class name="CrossCutting.DocumentManagement">
+        <test-method is-config="true" signature="Aftrst()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Aftrst" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftrst -->
+      </class> <!-- CrossCutting.DocumentManagement -->
+      <class name="CrossCutting.TaskManagement">
+        <test-method is-config="true" signature="bfrst()[pri:0, instance:CrossCutting.TaskManagement@14dd9eb7]" started-at="2021-08-22T20:04:46 IST" name="bfrst" finished-at="2021-08-22T20:04:46 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrst -->
+        <test-method is-config="true" signature="Bfrcls()[pri:0, instance:CrossCutting.TaskManagement@14dd9eb7]" started-at="2021-08-22T20:04:46 IST" name="Bfrcls" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfrcls -->
+        <test-method signature="Automatictask()[pri:0, instance:CrossCutting.TaskManagement@14dd9eb7]" started-at="2021-08-22T20:04:46 IST" name="Automatictask" finished-at="2021-08-22T20:04:46 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Automatictask -->
+        <test-method signature="TaskAdd(java.lang.String,java.lang.String)[pri:0, instance:CrossCutting.TaskManagement@14dd9eb7]" started-at="2021-08-22T20:04:46 IST" name="TaskAdd" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www..com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TaskAdd -->
+        <test-method signature="TaskNote()[pri:0, instance:CrossCutting.TaskManagement@14dd9eb7]" started-at="2021-08-22T20:04:46 IST" name="TaskNote" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TaskNote -->
+        <test-method signature="Taskdelete(java.lang.String)[pri:0, instance:CrossCutting.TaskManagement@14dd9eb7]" started-at="2021-08-22T20:04:46 IST" name="Taskdelete" finished-at="2021-08-22T20:04:46 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Taskdelete -->
+        <test-method is-config="true" signature="Aftrcls()[pri:0, instance:CrossCutting.TaskManagement@14dd9eb7]" started-at="2021-08-22T20:04:46 IST" name="Aftrcls" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftrcls -->
+        <test-method is-config="true" signature="Afterst()[pri:0, instance:CrossCutting.TaskManagement@14dd9eb7]" started-at="2021-08-22T20:04:46 IST" name="Afterst" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterst -->
+      </class> <!-- CrossCutting.TaskManagement -->
+      <class name="CrossCutting.FndManagement">
+        <test-method is-config="true" signature="Befotst()[pri:0, instance:CrossCutting.FndManagement@62150f9e]" started-at="2021-08-22T20:04:46 IST" name="Befotst" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Befotst -->
+        <test-method signature="FndPersonBO()[pri:0, instance:CrossCutting.FndManagement@62150f9e]" started-at="2021-08-22T20:04:46 IST" name="FndPersonBO" finished-at="2021-08-22T20:04:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FndPersonBO -->
+        <test-method signature="Delete()[pri:0, instance:CrossCutting.FndManagement@62150f9e]" started-at="2021-08-22T20:04:46 IST" name="Delete" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+        <test-method signature="FndClaimBO()[pri:0, instance:CrossCutting.FndManagement@62150f9e]" started-at="2021-08-22T20:04:46 IST" name="FndClaimBO" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FndClaimBO -->
+        <test-method signature="FndContractBO()[pri:0, instance:CrossCutting.FndManagement@62150f9e]" started-at="2021-08-22T20:04:46 IST" name="FndContractBO" finished-at="2021-08-22T20:04:46 IST" depends-on-methods="CrossCutting.FndManagement.FndPersonBO" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FndContractBO -->
+      </class> <!-- CrossCutting.FndManagement -->
+    </test> <!-- functiontwo -->
+    <test started-at="2021-08-22T20:04:46 IST" name="Functionone" finished-at="2021-08-22T20:04:46 IST" duration-ms="70">
+      <class name="CrossCutting.DocumentManagement">
+        <test-method is-config="true" signature="Bfrtst()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Bfrtst" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfrtst -->
+        <test-method is-config="true" signature="Bfrmthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Bfrmthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfrmthd -->
+        <test-method signature="DocBatch()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="DocBatch" finished-at="2021-08-22T20:04:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DocBatch -->
+        <test-method is-config="true" signature="Aftemthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Aftemthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftemthd -->
+        <test-method is-config="true" signature="Bfrmthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Bfrmthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfrmthd -->
+        <test-method signature="DocCreatecm()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="DocCreatecm" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DocCreatecm -->
+        <test-method is-config="true" signature="Aftemthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Aftemthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftemthd -->
+        <test-method signature="DocIPP()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="DocIPP" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DocIPP -->
+        <test-method is-config="true" signature="Bfrmthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Bfrmthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfrmthd -->
+        <test-method is-config="true" signature="Aftemthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Aftemthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftemthd -->
+        <test-method is-config="true" signature="Bfrmthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Bfrmthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfrmthd -->
+        <test-method signature="Paymentsch(java.lang.String,java.lang.String)[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Paymentsch" data-provider="getdata" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Paymentsch -->
+        <test-method is-config="true" signature="Aftemthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Aftemthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftemthd -->
+        <test-method signature="Paymentsch(java.lang.String,java.lang.String)[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Paymentsch" data-provider="getdata" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Paymentsch -->
+        <test-method is-config="true" signature="Bfrmthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Bfrmthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfrmthd -->
+        <test-method is-config="true" signature="Aftemthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Aftemthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftemthd -->
+        <test-method is-config="true" signature="Bfrmthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Bfrmthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfrmthd -->
+        <test-method signature="Paymentsch(java.lang.String,java.lang.String)[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Paymentsch" data-provider="getdata" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Paymentsch -->
+        <test-method is-config="true" signature="Aftemthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Aftemthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftemthd -->
+        <test-method signature="Sepa()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Sepa" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sepa -->
+        <test-method is-config="true" signature="Bfrmthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Bfrmthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfrmthd -->
+        <test-method is-config="true" signature="Aftemthd()[pri:0, instance:CrossCutting.DocumentManagement@7a69b07]" started-at="2021-08-22T20:04:46 IST" name="Aftemthd" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftemthd -->
+      </class> <!-- CrossCutting.DocumentManagement -->
+      <class name="CrossCutting.Finance">
+        <test-method signature="CCSucess()[pri:0, instance:CrossCutting.Finance@57c758ac]" started-at="2021-08-22T20:04:46 IST" name="CCSucess" finished-at="2021-08-22T20:04:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CCSucess -->
+        <test-method signature="CCrejection()[pri:0, instance:CrossCutting.Finance@57c758ac]" started-at="2021-08-22T20:04:46 IST" name="CCrejection" finished-at="2021-08-22T20:04:46 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at CrossCutting.Finance.CCrejection(Finance.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CCrejection -->
+        <test-method signature="FinaceCC()[pri:0, instance:CrossCutting.Finance@57c758ac]" started-at="2021-08-22T20:04:46 IST" name="FinaceCC" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinaceCC -->
+        <test-method signature="FinanceDD(java.lang.String)[pri:0, instance:CrossCutting.Finance@57c758ac]" started-at="2021-08-22T20:04:46 IST" name="FinanceDD" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinanceDD -->
+        <test-method signature="FinancePS()[pri:0, instance:CrossCutting.Finance@57c758ac]" started-at="2021-08-22T20:04:46 IST" name="FinancePS" finished-at="2021-08-22T20:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinancePS -->
+        <test-method is-config="true" signature="Aftrtst()[pri:0, instance:CrossCutting.Finance@57c758ac]" started-at="2021-08-22T20:04:46 IST" name="Aftrtst" finished-at="2021-08-22T20:04:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftrtst -->
+      </class> <!-- CrossCutting.Finance -->
+    </test> <!-- Functionone -->
+  </suite> <!-- Cross-cutting -->
+</testng-results>
